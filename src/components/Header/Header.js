@@ -4,10 +4,7 @@ import { Link as ReactRouterLink } from "react-router-dom";
 export const Container = styled.div`
     display: flex;
     width: 100%;
-    min-height: 800px;
-    max-height: 1200px;
     background-color: #6FA21C;
-    margin-top: -16px;
 `;
 
 export const Content = styled.div`
@@ -15,6 +12,12 @@ export const Content = styled.div`
     grid-template-columns: 30% 70%;
     align-items:center;
     width: 100%;
+    padding: 50px;
+    @media (max-width:768px){
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
 
 `;
 
@@ -29,6 +32,10 @@ export const TextContainer = styled.div`
     grid-template-rows: auto;
     padding-left: 20%;
     grid-column-gap:50px;
+    @media screen and (max-width:768px){
+        padding: 15px;
+    }
+    
 `;
 export const ContentImage = styled.img`
     size: cover;
@@ -41,6 +48,10 @@ export const ContentImage = styled.img`
         width: 420px;
         height: 200;
     }
+    @media screen and (max-width:768px){
+        width: 320px;
+        height: 180;
+    }
 
 `;
 
@@ -52,7 +63,7 @@ export const ButtonContainer = styled.div`
 export const Button = styled(ReactRouterLink)`
     display: block;
   background-color: ${props=>props.color};
-  width: 30%;
+  width: 150px;
   color: white;
   border-radius: 15px;
   border: 0;

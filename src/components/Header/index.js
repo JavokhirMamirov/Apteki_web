@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Content, ContentTitle, ContentImage, TextContainer, ButtonContainer, Button } from './Header';
-
 const Header = () => {
     return (
         <Container>
@@ -10,8 +9,8 @@ const Header = () => {
                         Dorixona biznesi uchun savdo dasturi.
                     </ContentTitle>
                     <ButtonContainer>
-                        <Button color="#94FF62">Get startted</Button>
-                        <Button color="#304F42">Get startted</Button>
+                        <Button to='#' color="#94FF62">Ro'yhatdan o'tish</Button>
+                        <Button to='#' color="#304F42">Aloqa</Button>
                     </ButtonContainer>
                 </TextContainer>
                 <ContentImage src='/images/headerimage.png'/>
