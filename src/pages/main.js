@@ -3,7 +3,7 @@ import Header from '../components/Header'
 import Menu from '../components/Menu'
 import Posibility from '../components/Posibility'
 import Statistics from '../components/Statistics'
-
+import ControlApp from '../components/CntrolApp'
 const Main = () =>{
     return (
         <>
@@ -11,6 +11,7 @@ const Main = () =>{
             <Header/>
             <Posibility/>
             <Statistics/>
+            <ControlApp/>
         </>
     )
 }
