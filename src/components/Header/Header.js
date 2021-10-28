@@ -44,13 +44,16 @@ export const ContentImage = styled.img`
         width: 620px;
         height: 400;
     }
-    @media screen and (max-width:900px){
+    @media screen and (max-width:1000px){
         width: 420px;
         height: 200;
     }
     @media screen and (max-width:768px){
         width: 320px;
         height: 180;
+    }
+    @media screen and (max-width:477px){
+        display: none;
     }
 
 `;

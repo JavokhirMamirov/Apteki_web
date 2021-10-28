@@ -10,7 +10,6 @@ const Header = () => {
                     </ContentTitle>
                     <ButtonContainer>
                         <Button to='#' color="#94FF62">Ro'yhatdan o'tish</Button>
-                        <Button to='#' color="#304F42">Aloqa</Button>
                     </ButtonContainer>
                 </TextContainer>
                 <ContentImage src='/images/headerimage.png'/>
