@@ -17,8 +17,23 @@ export const Slider = styled(Carousel)`
     .rec.rec-dot.rec-dot_active {
         background-color: #6FA21C;
     }
+    @media (max-width:420px){
+        padding: 20px 10px;
+        .rec.rec-arrow {
+        height: 40px;
+        min-width: 40px;
+        font-size: 16px;
+        line-height: 42px;
+    } 
+    }
     
 `;
 
  export const Item = styled.img`
+
+    @media (max-width:420px){
+        height:400px;
+        width: 220px;
+    } 
+
  `;
