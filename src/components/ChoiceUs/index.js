@@ -1,6 +1,10 @@
 import React, {useState} from 'react'
-import { Container, ContentContainer, Title, YoutubeImage, VideoContainer } from './ChoiceUs';
+import { Container, ContentContainer, Title,
+     YoutubeImage, VideoContainer,InfoContainer,
+     InfoItem, TextContainer, ItemTitle, ItemSubTitle,
+     IconBlock } from './ChoiceUs';
 import ModalVideo from '../ModalVideo';
+import { FaCheck,FaUser, FaCalendar, FaProductHunt } from 'react-icons/fa';
 const ChoiceUs = () => {
     const [modal, setModal] = useState(false);
 
@@ -20,6 +24,51 @@ const ChoiceUs = () => {
             </VideoContainer>
             <ContentContainer>
                 <Title>Nima uchun bizni tanlaysiz?</Title>
+                <InfoContainer>
+                    <InfoItem>
+                        <TextContainer>
+                            <ItemTitle>Title</ItemTitle>
+                            <ItemSubTitle>Far far away, behind the word mountains,far from the countries Vokalia</ItemSubTitle>
+                        </TextContainer>
+                        <IconBlock><FaProductHunt size={32}/></IconBlock>
+                    </InfoItem>
+                    <InfoItem>
+                        <TextContainer>
+                            <ItemTitle>Title</ItemTitle>
+                            <ItemSubTitle>Far far away, behind the word mountains,far from the countries Vokalia</ItemSubTitle>
+                        </TextContainer>
+                        <IconBlock ><FaProductHunt size={32}/></IconBlock>
+                    </InfoItem>
+                    <InfoItem>
+                        <TextContainer>
+                            <ItemTitle>Title</ItemTitle>
+                            <ItemSubTitle>Far far away, behind the word mountains,far from the countries Vokalia</ItemSubTitle>
+                        </TextContainer>
+                        <IconBlock><FaProductHunt size={32}/></IconBlock>
+                    </InfoItem>
+                    <InfoItem>
+                        <TextContainer>
+                            <ItemTitle>Title</ItemTitle>
+                            <ItemSubTitle>Far far away, behind the word mountains,far from the countries Vokalia</ItemSubTitle>
+                        </TextContainer>
+                        <IconBlock><FaProductHunt size={32}/></IconBlock>
+                    </InfoItem>
+                    <InfoItem>
+                        <TextContainer>
+                            <ItemTitle>Title</ItemTitle>
+                            <ItemSubTitle>Far far away, behind the word mountains,far from the countries Vokalia</ItemSubTitle>
+                        </TextContainer>
+                        <IconBlock><FaProductHunt size={32}/></IconBlock>
+                    </InfoItem>
+                    <InfoItem>
+                        <TextContainer>
+                            <ItemTitle>Title</ItemTitle>
+                            <ItemSubTitle>Far far away, behind the word mountains,far from the countries Vokalia</ItemSubTitle>
+                        </TextContainer>
+                        <IconBlock><FaProductHunt size={32}/></IconBlock>
+                    </InfoItem>
+                </InfoContainer>
+                
             </ContentContainer>
         </Container>
     );
