@@ -4,6 +4,7 @@ import Menu from '../components/Menu'
 import Posibility from '../components/Posibility'
 import Statistics from '../components/Statistics'
 import ControlApp from '../components/CntrolApp'
+import ChoiceUs from '../components/ChoiceUs'
 const Main = () =>{
     return (
         <>
@@ -12,6 +13,7 @@ const Main = () =>{
             <Posibility/>
             <Statistics/>
             <ControlApp/>
+            <ChoiceUs/>
         </>
     )
 }
