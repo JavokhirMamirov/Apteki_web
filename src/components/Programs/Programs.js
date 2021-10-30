@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    height: 600px;
     background-color:#FBFBFB;
     display: flex;
     align-items: center;
@@ -14,6 +13,10 @@ export const Container = styled.div`
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    @media (max-width:610px){
+        flex-direction: column;
+        align-items: center;
+    }
     
  `;
 
@@ -40,6 +43,10 @@ export const Container = styled.div`
     display: grid;
     grid-template-columns:50% 50%;
     column-gap: 20px;
+    @media (max-width:610px){
+        display: flex;
+        flex-direction: column;
+    }
  `;
 
  export const PrImage = styled.img`

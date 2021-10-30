@@ -6,6 +6,7 @@ import Statistics from '../components/Statistics'
 import ControlApp from '../components/CntrolApp'
 import ChoiceUs from '../components/ChoiceUs'
 import Programs from '../components/Programs'
+import Clients from '../components/Clients'
 const Main = () =>{
     return (
         <>
@@ -16,6 +17,7 @@ const Main = () =>{
             <ControlApp/>
             <ChoiceUs/>
             <Programs/>
+            <Clients/>
         </>
     )
 }
