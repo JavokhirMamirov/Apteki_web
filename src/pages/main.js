@@ -7,6 +7,8 @@ import ControlApp from '../components/CntrolApp'
 import ChoiceUs from '../components/ChoiceUs'
 import Programs from '../components/Programs'
 import Clients from '../components/Clients'
+import SearchApp from '../components/SearchApp'
+import Footer from '../Footer'
 const Main = () =>{
     return (
         <>
@@ -18,6 +20,8 @@ const Main = () =>{
             <ChoiceUs/>
             <Programs/>
             <Clients/>
+            <SearchApp/>
+            <Footer/>
         </>
     )
 }

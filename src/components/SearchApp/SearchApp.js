@@ -1,10 +1,7 @@
 import styled from "styled-components";
 
-
-
 export const Container = styled.div`
     display: flex;
-    background-color: #FBFBFB;
     flex-direction: column;
     align-items: center;
     padding: 30px;
@@ -16,6 +13,7 @@ export const Title = styled.p`
     color: #6FA21C;
     text-transform: uppercase;
 `;
+
 export const SubTitle = styled.span`
     font-weight: 500;
     font-size: 18px;
