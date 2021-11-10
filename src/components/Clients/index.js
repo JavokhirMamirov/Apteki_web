@@ -3,7 +3,7 @@ import { Container,Title,SubTitle,ClientContainer,Logo } from './Clients';
 
 const Clients = () => {
     return (
-        <Container>
+        <Container id="clients">
             <Title>Bizning Mijozlar</Title>
             <SubTitle>Far far away, behind the word mountains, far from the countries 
                 Vokalia and

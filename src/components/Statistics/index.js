@@ -4,7 +4,7 @@ import CountUp from 'react-countup';
 
 const Statistics = () => {
     return (
-        <Container>
+        <Container id="statistics">
             <StTitle>APTEKI DASTUR STATISTKASI</StTitle>
             <StContainer>
                 <StItemContainer>

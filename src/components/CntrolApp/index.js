@@ -4,7 +4,7 @@ import AppCorusel from '../MobilAppCorusel';
 
 const ControlApp = () => {
     return (
-        <Container>
+        <Container id="control_app">
             <Title>Apteki App</Title>
             <SubTitle>Biznesingizni Mobil Ilova Orqali Boshqaring</SubTitle>
             <AppCorusel/>

@@ -12,10 +12,11 @@ const Menu = () => {
                 <span/>
             </Toggle>
             <Navbar isOpened={isOpen}>
-                <NavItem to="">Bosh sahifa</NavItem>
-                <NavItem to="program" smooth={true}>Biz haqimizda</NavItem>
-                <NavItem to="">Aloqa</NavItem>
-                <NavItemBtn href="">Ro'yhatdan o'tish</NavItemBtn>
+                <NavItem to="header"  smooth={true}>Bosh sahifa</NavItem>
+                <NavItem to="posible" smooth={true}>Tizim inkoniyatlari</NavItem>
+                <NavItem to="program" smooth={true}>Dasturlar</NavItem>
+                <NavItem to="control_app">Apteki app</NavItem>
+                <NavItemBtn href="">Yuklab olish</NavItemBtn>
             </Navbar>
         </Nav>
     );

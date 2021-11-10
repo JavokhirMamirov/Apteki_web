@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Content, ContentTitle, ContentImage, TextContainer, ButtonContainer, Button } from './Header';
 const Header = () => {
     return (
-        <Container>
+        <Container id="header">
             <Content>
                 <TextContainer>
                     <ContentTitle>

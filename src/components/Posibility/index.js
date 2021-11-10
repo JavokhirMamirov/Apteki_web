@@ -3,7 +3,7 @@ import { Container, Title,CardContainer,CardItem,IconBlock,CardTitle,CardSubTitl
 import { FaCheck,FaUser, FaCalendar, FaProductHunt } from 'react-icons/fa';
 const Posibility = () => {
     return (
-        <Container>
+        <Container id="posible">
             <Title>Apteki dasturi imkoniyatlari</Title>
             <CardContainer>
                 <CardItem>

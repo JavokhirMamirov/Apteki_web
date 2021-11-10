@@ -2,15 +2,17 @@ import styled from "styled-components";
 import { Link } from "react-scroll";
 
 export const Nav = styled.div`
-    padding: 20px 90px;
+    padding: 20px 0px;
     display: flex;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    z-index:300;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     flex-wrap:wrap;
     background-color: #6FA21C;
-    @media (max-width:768px){
-        padding:20px;
-    }
 `;
 
 export const Toggle = styled.div`
@@ -26,6 +28,7 @@ export const Toggle = styled.div`
     }
     @media (max-width:768px){
         display: flex;
+        padding-right: 90px;
     }
 `;
 
@@ -36,18 +39,20 @@ export const Logo = styled.img`
         height: 32px;
         width: 130px;
     }
+    padding-left: 60px;
 `;
 export const Navbar = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
+    padding-right: 60px;
 
     @media (max-width:768px){
         overflow: hidden;
         flex-direction: column;
         width: 100%;
-        display: ${({isOpened})=>(isOpened? "none":"flex")};
+        display: ${props => props.isOpened? "flex":"none"};
         transition: display 0.3s ease-in;
     }
 `;

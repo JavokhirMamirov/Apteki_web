@@ -4,7 +4,7 @@ import { Container, SubTitle, Title } from './SearchApp';
 
 const SearchApp = () => {
     return(
-        <Container>
+        <Container id="search_app">
             <Title>Apteki Qidiruv dasturi</Title>
             <SubTitle>Bizning dastur orqali  mijozlar  uchun kerakli mahsulot sizning  dorixonangizda
                              mavjudligini bilish imkoniyatiga ega bo’ladi.</SubTitle>

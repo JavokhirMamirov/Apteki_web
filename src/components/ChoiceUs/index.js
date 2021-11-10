@@ -15,7 +15,7 @@ const ChoiceUs = () => {
 
 
     return (
-        <Container>
+        <Container id="choice_us">
             <VideoContainer>
                 <YoutubeImage onClick={openModal}
                     src="/images/yt.png"

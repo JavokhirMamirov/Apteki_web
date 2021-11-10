@@ -5,6 +5,7 @@ export const Container = styled.div`
     display: flex;
     width: 100%;
     background-color: #6FA21C;
+    margin-top: 70px;
 `;
 
 export const Content = styled.div`
