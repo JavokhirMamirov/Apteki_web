@@ -6,7 +6,7 @@ const Programs = () => {
     const [activeIndex, setActiveIndex] = useState(1);
 
     return (
-        <Container>
+        <Container id="program">
             <Title>Dasturlar</Title>
             <TabBtnContainer>
                 <TabBtn 

@@ -12,9 +12,9 @@ const Menu = () => {
                 <span/>
             </Toggle>
             <Navbar isOpened={isOpen}>
-                <NavItem href="">Bosh sahifa</NavItem>
-                <NavItem href="">Biz haqimizda</NavItem>
-                <NavItem href="">Aloqa</NavItem>
+                <NavItem to="">Bosh sahifa</NavItem>
+                <NavItem to="program" smooth={true}>Biz haqimizda</NavItem>
+                <NavItem to="">Aloqa</NavItem>
                 <NavItemBtn href="">Ro'yhatdan o'tish</NavItemBtn>
             </Navbar>
         </Nav>

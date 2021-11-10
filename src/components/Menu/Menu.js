@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { Link } from "react-scroll";
 
 export const Nav = styled.div`
     padding: 20px 90px;
@@ -51,7 +51,7 @@ export const Navbar = styled.div`
         transition: display 0.3s ease-in;
     }
 `;
-export const NavItem = styled.a`
+export const NavItem = styled(Link)`
     padding: 1rem 2rem;
     cursor: pointer;
     text-align: center;
