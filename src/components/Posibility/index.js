@@ -8,10 +8,10 @@ const Posibility = () => {
             <CardContainer>
                 <CardItem>
                     <IconBlock><FaCheck size={32}/></IconBlock>
-                    <CardTitle>Title</CardTitle>
-                    <CardSubTitle> Even the all-powerful Pointing has 
-no control about the blind texts it is
-       an almost unorthographic.</CardSubTitle>
+                    <CardTitle>Qulay va zamonaviy ko'rinish</CardTitle>
+                    <CardSubTitle>
+                        Foydalanishga oson va zamonaviy dizayn 
+                    </CardSubTitle>
                 </CardItem>
                 <CardItem>
                     <IconBlock><FaUser size={32}/></IconBlock>

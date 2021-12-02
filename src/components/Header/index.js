@@ -6,7 +6,7 @@ const Header = () => {
             <Content>
                 <TextContainer>
                     <ContentTitle>
-                        Dorixona biznesi uchun savdo dasturi.
+                        Dorixona biznesini raqamlashtirish uchun Aptekiuz platformasi.
                     </ContentTitle>
                     <ButtonContainer>
                         <Button to='#' color="#94FF62">Ro'yhatdan o'tish</Button>
